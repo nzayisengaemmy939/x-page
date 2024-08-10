@@ -6,6 +6,14 @@
     --body-black: hsla(0, 0%, 100%, 0.667);
    
 }
+::-webkit-scrollbar {
+    width: 1px; /* Adjust this value to set the desired width */
+}
+
+/* Target the scrollbar track */
+::-webkit-scrollbar-track {
+    background: black; /* Background of the scrollbar track */
+}
 section{
     width: 100%;box-sizing: border-box;
     min-height: 100vh;
